@@ -43,9 +43,18 @@
 // npm init (step by step, press enter to skip)
 // npm init -y (everything default)
 
-const _= require('lodash');
+// const _= require('lodash');
 
-const items = [1, 2, [3, [4]]]
-const newItems = _.flattenDeep(items);
+// const items = [1, 2, [3, [4]]]
+// const newItems = _.flattenDeep(items);
 
-console.log(newItems);
+// console.log(newItems);
+
+/* Event loop --> is what allows node.js to perform non-blocking I/O operations 
+despite the fact that JavaScript is single threaded- by offloading to the system kernel whenever possible 
+*/
+
+/* ------Events-------- */
+// Event driven programming
+// used heavily in Node.js
+
